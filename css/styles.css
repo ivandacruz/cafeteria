@@ -20,6 +20,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 .caixa-video {
     position:fixed;
@@ -44,11 +45,6 @@
 }
 
 header {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding: 20px; */
-    /* background-color: #f4f4f4; */
     position: fixed;
     top: 0;
     left: 0;
@@ -56,6 +52,7 @@ header {
     width: 100vw;
     background-color: var(--bg);
     border-bottom: var(--border);
+    width: 100vw;
 }
 section{
     padding: 3rem 2rem;
@@ -79,4 +76,32 @@ header section nav a {
     color: #fff;
     font-size: 1.6rem;
     font-weight: 500;
+    transition: all 0.3s ease;
 }
+
+header section nav a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.apresentacao {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.apresentacao div {
+    max-width: 60rem;
+}
+
+.apresentacao div h3 {
+    color: #fff;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+.apresentacao div p {
+    font-size: 1.8rem;
+    color: #ddd;
+    font-weight: lighter;
+}
+
