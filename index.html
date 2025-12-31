@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <title>COFFE CLUB</title>
     <!-- <link rel="shortcut icon" href="./img/favi.png" /> -->
@@ -21,17 +21,22 @@
         <video src="./videos/51212-463624236.mp4" loop muted autoplay></video>
         <div class="mascara"></div>
     </div>
-    <header>
+    <header class="header">
         <section>
                 <a class="logo">
                     <img src="./img/logo.png" alt="Logo Coffe Club" />
                 </a>
-                <nav>
+                <nav class="navbar">
                     <a href="#home">Home</a>
                     <a href="#sobre">Sobre</a>
                     <a href="#produtos">Produtos</a>
                     <a href="#contato">Contato</a>
                 </nav>
+
+                <div class="icons">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/search--v1.png" alt="search--v1"/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+                </div>
         </section>
     </header>
 
@@ -47,23 +52,26 @@
                 descubra por que somos a escolha número um para amantes de café na
                 região!
             </p>
-            <a href="">Pague o seu agora</a>
+            <a class="btn-apresentacao">Explore nosso menu</button>
         </div>
     </section>
-    <section>
-        <h2><span>Sobre</span>Nós</h2>
-        <div>
-            <div>
+
+    <section class="apresentacao-sobre">
+        <h2><span>Sobre</span>  Nós</h2>
+        <div class="apresentacao-container">
+            <div class="apresentacao-imagem">
                 <img src="./img/about-me.png" alt="">
             </div>
-            <div>
+
+            <div class="apresentacao-texto">
                 <h3>O que faz nosso café especial</h3>
                 <p>Oferecemos cafés especiais, torrados na hora e preparados com maestria por nossos baristas experientes.</p>
                 <p>Além disso, utilizamos ingredientes de alta qualidade e seguimos técnicas tradicionais para garantir o melhor sabor em cada xícara.</p>
-                <a href="">Saiba mais</a>
+                <a class="btn-apresentacao">Saiba mais</a>
             </div>
         </div>
     </section>
+
     <script src="js/main.js"></script>
 </body>
 

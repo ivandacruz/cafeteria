@@ -11,6 +11,17 @@ Um site simples e elegante para uma cafeteria, apresentando um menu delicioso e 
 - **Galeria de Imagens**: Veja fotos dos pratos e do ambiente.
 - **Vídeos Promocionais**: Assista a vídeos para uma experiência imersiva.
 
+## Tecnologias Utilizadas
+1.
+
+2.
+
+3. [icons8](https://icons8.com.br/)
+https://icons8.com.br/icons/set/cart
+https://icons8.com.br/icons/set/search
+
+ 4. [Google Fonts](https://fonts.google.com/specimen/Roboto)
+
 ## 🚀 Como Usar
 
 1. Clone o repositório:
